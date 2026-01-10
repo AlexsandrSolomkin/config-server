@@ -6,10 +6,11 @@ spring:
     config:
       server:
         git:
-          uri: file:///path/to/config-repo
-          default-label: main
+          uri: file:///D:/config-repo
 
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
