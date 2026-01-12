@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:/config-repo
+          uri: file:///config-repo
 
 eureka:
   client:
